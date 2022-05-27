@@ -24,8 +24,8 @@ public class Main {
         if (sortMethod.equals("desc")) ArraySort.descSortArray(myIntArray);
 
         System.out.println("Sorted array (" + sortMethod + ")");
-        for (int i = 0; i < myIntArray.length; i++) {
-            System.out.println(myIntArray[i]);
+        for (int j : myIntArray) {
+            System.out.println(j);
         }
     }
 }
